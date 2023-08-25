@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MT Enterprise -Services</title>
+
+    <style>
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .header-x {
+    text-align: center;
+    padding: 40px;
+    background-color: #e74c3c; /* Red background */
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .services-list a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #121212be; /* Blue background */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%);
+    opacity: 0;
+    animation: slideInAnimation 1s ease-out forwards, fadeInAnimation 1s ease-out forwards;
+  }
+  
+  .services-list a:hover {
+    background-color: red; /* Darker blue on hover */
+  }
+  
+  @keyframes slideInAnimation {
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInAnimation {
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+    </style>
+       <body>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Services</title>
+</head>
+<body>
+  <div class="header-x">
+    <h1>Our Services</h1>
+  
+  <div class="services-list">
+    <a href="airfreight.html">Air Freight</a>
+    <a href="surfacefreight.html">Surface Freight</a>
+    <a href="seafreight.html">Sea Freight</a>
+  </div>
+
+</body>
+</html>
+
+</body>
+</html>

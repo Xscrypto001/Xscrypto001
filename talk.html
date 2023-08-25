@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+      body{
+
+         background-image:url('Air-Service-banner-page.jpg');
+
+      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            background-color: rgb(250,250,250,0.6);
+            box-shadow: ;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .left-column {
+            flex: 1;
+            padding: 40px;
+        }
+        .right-column {
+            flex: 1;
+            padding: 40px;
+            background-color: #f8f8f8;
+        }
+        .contact-form {
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color:rgb(255,0,0);
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h2>Helping you realise your goals by first class logistics services.</h2>
+            <p>Please feel free to call or email, or use our contact form to get in touch with us.</p>
+            <h2>Kanal Plaza, Opposite Post Bank</h2>
+            <p ><B>Mombasa - Kenya</B></p>
+            <p >office Line +2547 279 34355</p>
+            <p>Email: info@tmtenterprises.co.ke</p>
+          
+            <p ><B>Kampala - Uganda</B></p>
+            <p >Richflo Building, 1st floor, Nakawa, Kampala - Uganda</p>
+            <p>Office Line +256 778 925928</p>
+          
+
+
+        </div>
+        <div class="right-column">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

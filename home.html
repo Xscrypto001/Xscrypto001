@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TMT Enterprise -Logistics| Freight</title>
+  <script
+  src="https://kit.fontawesome.com/64d58efce2.js"
+  crossorigin="anonymous"
+></script>    
+
+
+  <style>
+    /* Your existing CSS content */
+    .header-m{
+        background-color: white;
+
+    }
+.j {
+  max-width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.d{
+
+  background-color: #1D1B26;
+
+
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #333;
+  color:black;
+
+}
+
+header{
+margin-top: 0;
+background-color: white;
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px; 
+
+}
+.menu li {
+  color:black;
+
+  padding: 10px 20px;
+}
+body{
+  background-color: black;
+
+}
+.menu a {
+  color:black;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(250,250,250,0.5);;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  padding: 5px 0;
+}
+
+/* Rest of your styles */
+
+    ul{
+
+      color:black;
+
+      list-style-type: none;
+    }
+      .header-m {
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10px; /* Add some padding to the header content */
+      }
+      .header{
+        max-width: 100%;
+     background-image: url('pexels-photo-1117215.jpeg');
+      }
+    .learn-more {
+      text-align: left;
+      padding: 20px;
+    }
+
+    .learn-more a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      border-radius: 30px;
+      color: #1D1B26;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .learn-more a:hover {
+      background-color: #dddddd;
+    }
+
+    body{
+      background-color: black;
+
+    }
+    .slogan {
+      flex: 1;
+
+      font-family: Arial, sans-serif;
+      font-size: 19px;
+      line-height: 1.5;
+      white-space: nowrap;
+      overflow: hidden;
+      color:white;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      background-color: black;
+    }
+    .title {
+      position: relative;
+      display: inline-block;
+      padding-top: 1.2rem;
+      line-height: 1;
+      font-size: 2.8rem;
+      margin-bottom: 0.6rem;
+      color:#dddddd;
+
+    }
+    
+    .title:before {
+      content: attr(data-title);
+      display: block;
+      margin-bottom: 0.4rem;
+      color: var(--main-color);
+      font-size: 1.15rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    .hamburger-menu {
+      width: 2.7rem;
+      height: 3rem;
+      z-index: 100;
+      position: relative;
+      display: none;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+    .hamburger-menu .bar {
+      position: relative;
+      width: 2.1rem;
+      height: 3px;
+      border-radius: 3px;
+      background-color: var(--dark-one);
+      transition: 0.5s;
+    }
+    
+    .bar:before,
+    .bar:after {
+      content: "";
+      position: absolute;
+      width: 2.1rem;
+      height: 3px;
+      border-radius: 3px;
+      background-color: var(--dark-one);
+      transition: 0.5s;
+    }
+    
+    .bar:before {
+      transform: translateY(-9px);
+    }
+    
+    .bar:after {
+      transform: translateY(9px);
+    }
+    
+    nav.open .hamburger-menu .bar {
+      background-color: transparent;
+      transform: rotate(360deg);
+    }
+    
+    nav.open .hamburger-menu .bar:before {
+      transform: translateY(0) rotate(45deg);
+      background-color: var(--light-one);
+    }
+    
+    nav.open .hamburger-menu .bar:after {
+      transform: translateY(0) rotate(-45deg);
+      background-color: var(--light-one);
+    }
+    
+    nav.open .links {
+      transform: translateX(0);
+    }
+    .title:after {
+      content: "";
+      position: absolute;
+      width: 90px;
+      height: 5px;
+      border-radius: 3px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .text{
+
+    font-size: 2.3rem;
+
+     color:#E2E8F0;
+
+    }
+    .section-header .text {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    /* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+
+}
+
+
+footer {
+  bottom: 6px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* The rest of your footer styling */
+
+
+  .slogan{
+     flex: 1;
+     font-size:45px;
+     font-weight: 600;
+
+  }
+      .slogan span {
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: whitesmoke;
+        font-weight: 600;
+      }
+  
+     
+      
+ 
+      
+       html {
+        font-size: 62.5%;
+        font-family: 'Roboto', sans-serif;
+        scroll-behavior: smooth;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    #logo {
+      margin-left: 20px;
+    }
+    nav {
+      padding: 10px;
+    }
+    nav a:hover {
+     transform: scale(1.1);
+    }
+    nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 20px; 
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+    nav ul {
+      color:#1D1B26;
+      list-style: none;
+      margin: 8px;
+      padding: 0;
+      display: flex;
+    }
+    nav li {
+      color:#1D1B26;
+    font-family: Arial, sans-serif;
+     font-size: 21px;
+      margin-left: 30px;
+    }
+    nav a {
+
+      color:#1D1B26;     
+       text-decoration: none;
+    }
+    
+#backgroundButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  margin-left: 0; /* Reset margin for dropdown items */
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 15px;
+}
+#slogan {
+  font-size: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+#auto-typing-text {
+  font-size: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(50) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.slogan {
+  flex: 1;
+  text-align: left;
+  padding: 10px 20px;
+  color:black;
+  font-size: 25px;
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+}
+
+
+
+.slogan span {
+  display: block;
+  overflow: hidden;
+}
+
+
+.auto-typing-text {
+  font-size: 23px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  animation: typing 4s ;
+}
+
+.background-image {
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -999999; 
+}
+
+
+
+.slogan span {
+         flex: 2;
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typingAnimation 4s steps(100) forwards;
+      }
+  
+     
+       
+  
+      .slogan span {
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typingAnimation 4s steps(100) forwards;
+      }
+  
+    
+    
+  
+     
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D1B26;
+
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.containerx{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+footer {
+  
+  padding: 6rem 0;
+
+  bottom: 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: red;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.foot{
+
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+
+  font-size: 16px;
+
+
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.partner{
+
+display: none;
+}
+}
+@media(max-width: 574px){
+  .partner{
+
+    display: none;
+    }
+    
+  .footer-col{
+    width: 100%;
+}
+}
+.slogan img{
+
+   float:right;
+  flex: 2;
+  padding: 20px;
+}
+   #logo {
+        margin-left: 20px;
+      }
+      h1{
+
+        font-size: 30px;
+      }
+      .partner {
+        display: flex;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    p{
+
+      font-size: 20px;
+      color: white;
+    }
+    .hireme {
+      padding: 8rem 0;
+    }
+    .hireme {
+      padding: 12rem 0;
+    }
+    
+    .hireme .container {
+      text-align: center;
+    }
+    
+    .hireme .title {
+      margin-bottom: 1.3rem;
+    }
+    
+    .hireme .text {
+      max-width: 1000px;
+      margin: 0 auto 1.6rem auto;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.85rem 2rem;
+      background-color: red;
+      color: var(--light-one);
+      border-radius: 2rem;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    @media (max-width: 740px) {
+      .grid-2 {
+        grid-template-columns: 1fr !important;
+      }
+    
+      .column-1 {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+    
+      .column-2 {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+    
+      .hamburger-menu {
+        display: flex;
+      }
+    
+      .header-content {
+        margin-top: 1rem;
+      }
+    
+      .header-title {
+        font-size: 2.3rem;
+      }
+    
+      .header-content .image {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    
+      header .column-1 {
+        max-width: 550px;
+        margin: 0 auto;
+      }
+    
+      .links {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: #252525;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translateX(100%);
+        transition: 0.5s;
+      }
+    
+      .links ul {
+        flex-direction: column;
+      }
+    
+      .links a {
+        color: var(--light-one);
+      }
+    
+      .links a.active {
+        margin-left: 0;
+        margin: 0.5rem 0;
+      }
+    
+      .header-content .container.grid-2 {
+        min-height: 80vh;
+      }
+    
+      .letters,
+      header .half-circle2,
+      header .points1,
+      header .wave2 {
+        display: none;
+      }
+    
+      header .half-circle1 {
+        bottom: 55%;
+        left: 23%;
+      }
+    
+      header .circle {
+        left: 8%;
+        bottom: 40%;
+      }
+    
+      header .wave1 {
+        bottom: 87%;
+        left: 75%;
+      }
+    
+      header .square {
+        top: initial;
+        bottom: 5%;
+        left: 13%;
+      }
+    
+      header .triangle {
+        right: 14%;
+        bottom: 63%;
+      }
+    
+      header .points2 {
+        width: 280px;
+        bottom: -10px;
+        left: 60%;
+      }
+    
+      header .xshape {
+        left: 90%;
+        top: 54%;
+      }
+    
+      .grid-item {
+        width: 50%;
+      }
+    
+      .gallery-image {
+        height: 210px;
+        max-width: 270px;
+      }
+    
+      .background-bg {
+        height: 340px;
+      }
+    
+      .portfolio .half-circle1,
+      .portfolio .triangle,
+      .portfolio .half-circle2 {
+        display: none;
+      }
+    
+      .portfolio .square {
+        top: 10%;
+        left: 14%;
+      }
+    
+      .portfolio .wave {
+        top: 33%;
+      }
+    
+      .portfolio .circle {
+        right: 20%;
+      }
+    
+      .portfolio .xshape {
+        top: 25%;
+      }
+    
+      .skill-bar {
+        width: 100%;
+      }
+    
+      .about .column-1:before {
+        font-size: 5rem;
+      }
+    
+      .about .points {
+        top: 60%;
+        left: 59%;
+      }
+    
+      .records .wave1,
+      .records .triangle {
+        display: none;
+      }
+    
+      .records .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+      .records .wave2 {
+        left: 48%;
+      }
+    
+      .records .sqaure2 {
+        bottom: 45%;
+        right: 50px;
+      }
+    
+      .testi-content {
+        margin-top: 1.7rem;
+      }
+    
+      .testi-content .image {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    
+      .review-nav {
+        bottom: 3rem;
+      }
+    
+      .contact-box {
+        grid-template-columns: 1fr;
+        padding: 3.2rem 2.7rem;
+      }
+    
+      .contact-info {
+        padding-right: 0;
+        padding-bottom: 0.5rem;
+      }
+    
+      .contact-form {
+        padding-left: 0;
+        padding-top: 0.5rem;
+      }
+    
+      .information-wrap {
+        margin-top: 0.7rem;
+      }
+    
+      .information:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    
+      .contact-input.textarea {
+        min-height: 220px;
+      }
+    
+      .contact:before {
+        height: 25%;
+      }
+    
+      .contact:after {
+        height: 75%;
+        top: 25%;
+      }
+    
+      .footer .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+      }
+    
+      .footer-about {
+        grid-column: 1 / 3;
+      }
+    
+      .footer-newstletter {
+        grid-column: 1 / 3;
+      }
+    
+      .grid-4-col {
+        margin: 1rem 0;
+        padding: 0;
+      }
+    
+      .footer-input-wrap {
+        max-width: 300px;
+        margin: 0.95rem auto 0 auto;
+        grid-template-columns: auto 45px;
+      }
+    
+      .bottom-footer {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 1.5rem 0 0 0;
+        margin-top: 2.5rem;
+        position: relative;
+      }
+    
+      .bottom-footer:before {
+        content: "";
+        position: absolute;
+        width: 90%;
+        max-width: 500px;
+        height: 1px;
+        background-color: #7b7b7b;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .followme-wrap {
+        margin-top: 0.8rem;
+      }
+      .slogan{
+
+
+        display: none;
+      }
+      .partner img{
+
+        display: none;
+
+      }
+      .slogan2 span {
+        font-size: 1.92rem;
+
+        display: block;
+        overflow: hidden;
+        white-space: nowrap;
+        color: whitesmoke;
+        font-weight: 600;
+      }
+
+      }
+    
+
+      .slogan2{
+        display: none;
+
+
+      }
+      
+.bottom-footer {
+  margin-top: 5.5rem;
+  padding: 0 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright .text {
+  color: #7b7b7b;
+  font-size: 1.2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.copyright .text span {
+  color: whitesmokess;
+  cursor: pointer;
+}
+body, figure, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set up basic layout and styling */
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.service {
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service:hover .overlay {
+  opacity: 1;
+}
+.reviews-slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.review {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  animation: slideAnimation 20s linear infinite;
+}
+
+.review p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.author {
+  text-align: right;
+  margin-top: 10px;
+  font-style: italic;
+  color :#e60f0f;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.stats-container {
+  display: flex;
+  width: 85%; /* Set the width to 85% */
+  justify-content: center; /* Horizontally center the container */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  animation: scaleAnimation 2s ease-in-out infinite alternate;
+}
+
+.count {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  color: #888;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.stats-container {
+  color: white;
+
+  display: flex;
+  width: 85%; /* Set the width to 85% */
+  justify-content: center; /* Horizontally center the container */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.stat {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  animation: scaleAnimation 2s ease-in-out infinite alternate;
+}
+
+.count {
+  color:white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  color: white;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+li a{
+
+
+  text-decoration: none; 
+
+}
+                    
+    </style>
+
+</head>
+<body>
+  <div class="header-m">
+  <header>
+    <div id="logo">
+
+     <h1>      <img src="logo2.png" alt="Logo" height="125" width="175 ">
+
+      Timatania Enterprises Ltd</h1>
+
+     
+    </div>
+
+
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="dropdown">
+          <a href="services.html">Services</a>
+          <ul class="dropdown-content">
+              <li><a href="sea.html">Sea Freight</a></li>
+              <li><a href="air.html">Air Freight</a></li>
+              <li><a href="surface.html">Surface Freight</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="partner.html">Partners</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    
+    </nav>
+  </div>
+  <div class="hamburger-menu">
+    <div class="bar"></div>
+  </div>
+
+
+  <div class="j">
+  <div class='header'>
+     <section class="partner">
+      <div class="slogan">
+       <br>  <br>
+          
+        <span>Timatania Enterprises Ltd is a freight forwarding company,</span>
+      <span>established in 2019 in the Coastal, Port  based city  of Mombasa.</span>
+    <span> We boast of a team of qualified professionals, who  coupled</span>
+    <span>with the required training and certifications,have worked in</span>
+      <span>  logistics related fields for well over 10 years and gathered up</span>
+         <span>adequate experiences to handle your cargo with the speed &</span>
+          <span> delicacy it requires.</span>
+
+
+
+    </div>
+    
+
+    <img src="logo2.png" alt="Logo" height="350" width="500 ">    
+    <div class="slogan2">
+      <br>  <br>
+         
+       <span>Timatania Enterprises Ltd is a freight forwarding company,</span>
+     <span>established in 2019 in the Coastal, Port  based city  of Mombasa.</span>
+   <span> We boast of a team of qualified professionals, who  coupled</span>
+   <span>with the required training and certifications,have worked in</span>
+     <span>  logistics related fields for well over 10 years and gathered up</span>
+        <span>adequate experiences to handle your cargo with the speed &</span>
+         <span> delicacy it requires.</span>
+
+
+
+   </div>     
+
+    </section>
+   <div id='logo'>
+
+               
+    </div>
+    <div class="learn-more">
+      <a href="#">Learn More</a>
+    </div>  
+    .<br><br><br><br><br>
+  </div>
+  <br><br><br><br><br>
+
+          <div class="section-header">
+                      <h3 class="title" >What we do</h3>
+                      <p class="text">
+                        We have extensive experience in offering the following services:
+                      </p>
+           </div>
+           <br><br><br><br><br>
+
+
+
+
+           <div class="services">
+            <a href="#" class="service">
+              <img src="SGR-cargo-1.jpg" alt="Service 1">
+              <div class="overlay">
+                <p>Surface Freight</p>
+              </div>
+            </a>
+            <a href="#" class="service">
+              <img src="Air-Service-banner-page.jpg" alt="Service 2">
+              <div class="overlay">
+                <p>Air Freight</p>
+              </div>
+            </a>
+            <a href="#" class="service">
+              <img src="ian-taylor-jOqJbvo1P9g-unsplash.jpg" alt="Service 3">
+              <div class="overlay">
+                <p>sea Freight</p>
+              </div>
+            </a>
+          </div><br>
+          
+          <h3 class="title-sm">Hello, we</h3>
+          <p class="text">
+           We give our clients executive online services. We want to make <br>
+            it simple, quick, 
+            and safe 
+            for customers to use our <br>services from anywhere in the globe.</p>
+          
+          <br><br><br><br><br>
+
+
+          <section class="reviews-slideshow">
+            <div class="review">
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+              <p class="author">- John Doe</p>
+            </div>
+            <div class="review">
+              <p>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."</p>
+              <p class="author">- Jane Smith</p>
+            </div>
+            <div class="review">
+              <p>"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque auctor orci vel urna tempus."</p>
+              <p class="author">- Michael Johnson</p>
+            </div>
+            <div class="review">
+              <p>"Fusce et urna nec odio fringilla cursus."</p>
+              <p class="author">- Emily Brown</p>
+            </section>
+
+<br><br><br><br><br>
+
+
+            <div class="stats-container">
+        <div class="stat">
+          <h2 class="count" data-count="1500">0</h2>
+          <p class="label">CUSTOMERS</p>
+        </div>&nbsp; &nbsp; &nbsp;
+        <div class="stat">
+          <h2 class="count" data-count="20">0</h2>
+          <p class="label">YEARS EXPERIENCE</p>
+        </div>&nbsp;
+        <div class="stat">
+          <h2 class="count" data-count="15">0</h2>
+          <p class="label">EMPLOYEES</p>
+        </div>
+      </div>
+      <br><br>
+   
+
+
+
+            <section class="hireme" id="hireme">
+              <div class="container">
+                <h3 class="title">Let's talk about a Specific Job</h3>
+                <p class="text">
+                  We are very Flexible. Do you want to give us a specific job other than the ones offered? Lets work this out!
+                </p>
+               <li><a href="https://wa.me/+254717522819" class="btn">Chat With Us</a></li>
+              </div>
+            </section>
+
+            <br><br><br>
+           
+          </section>
+    <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4>company</h4>
+           <ul>
+            
+             <li><a href="about.html">about us</a></li>
+             <li><a href="service.html">our services</a></li>
+             <li><a href="privacy.html">privacy policy</a></li>
+             <div class="bottom-footer">
+              <div class="copyright">
+                <p class="text">
+                  Copyright&copy;2023 All rights reserved 
+              
+                </p>
+              </div>
+             
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>get help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>Find us</h4>
+           <ul class='foot'>
+             <li >Kanal Plaza, Opposite Post Bank</a></li>
+             <li >Mombasa - Kenya</a></li>
+             <li >office Line +254727934355</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>follow us</h4>
+           <div class="social-links">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i> <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+   </footer>    
+
+</body>
+<script >
+
+
+  const countElements = document.querySelectorAll('.count');
+
+  countElements.forEach((countElement) => {
+    const targetCount = parseInt(countElement.getAttribute('data-count'));
+    let count = 0;
+  
+    const countUp = () => {
+      countElement.innerText = count;
+      if (count < targetCount) {
+        count++;
+        setTimeout(countUp, 2); // Adjust the speed of counting
+      }
+    };
+  
+    countUp();
+  });
+
+
+</script>
+<script>
+
+const body = document.querySelector('body');
+
+body.addEventListener('click', function() {
+  body.classList.toggle('white-background');
+});
+const body = document.querySelector('body');
+const backgroundButton = document.getElementById('backgroundButton');
+
+backgroundButton.addEventListener('click', function() {
+  body.classList.toggle('white-background');
+});
+const autoTypingText = document.getElementById('auto-typing-text');
+const textToType = "Welcome to TMT Enterprises where we do freight shipping among all other services";
+let index = 0;
+
+function typeText() {
+  autoTypingText.textContent += textToType.charAt(index);
+  index++;
+
+  if (index < textToType.length) {
+    setTimeout(typeText, 100); // Adjust typing speed by changing the timeout value (milliseconds)
+  }
+}
+
+typeText();
+const dropdown = document.querySelector('.dropdown');
+
+dropdown.addEventListener('mouseover', function () {
+  const dropdownMenu = this.querySelector('.dropdown-menu');
+  dropdownMenu.style.display = 'block';
+});
+
+dropdown.addEventListener('mouseout', function () {
+  const dropdownMenu = this.querySelector('.dropdown-menu');
+  dropdownMenu.style.display = 'none';
+});
+const spanElements = document.querySelectorAll('.slogan span');
+const typingInterval = 100; // Adjust this value for typing speed
+const pauseInterval = 1000; // Adjust this value for pause between lines
+
+let currentSpanIndex = 0;
+let currentWordIndex = 0;
+
+function typeText() {
+  const currentSpan = spanElements[currentSpanIndex];
+  const words = currentSpan.textContent.trim().split(' ');
+  
+  if (currentWordIndex < words.length) {
+    currentSpan.textContent = words.slice(0, currentWordIndex + 1).join(' ');
+    currentWordIndex++;
+    setTimeout(typeText, typingInterval);
+  } else {
+    currentSpanIndex++;
+    currentWordIndex = 0;
+    if (currentSpanIndex < spanElements.length) {
+      setTimeout(typeText, pauseInterval);
+    }
+  }
+}
+
+typeText();
+
+
+</script>
+<script type="text/javascript">
+  const spanElements = document.querySelectorAll('.slogan span');
+  const typingInterval = 100; // Adjust this value for typing speed
+  const pauseInterval = 1000; // Adjust this value for pause between lines
+  
+  let currentSpanIndex = 0;
+  let currentWordIndex = 0;
+  
+  function typeText() {
+    const currentSpan = spanElements[currentSpanIndex];
+    const words = currentSpan.textContent.trim().split(' ');
+    
+    if (currentWordIndex < words.length) {
+      currentSpan.textContent = words.slice(0, currentWordIndex + 1).join(' ');
+      currentWordIndex++;
+      setTimeout(typeText, typingInterval);
+    } else {
+      currentSpanIndex++;
+      currentWordIndex = 0;
+      if (currentSpanIndex < spanElements.length) {
+        setTimeout(typeText, pauseInterval);
+      }
+    }
+  }
+  
+  typeText();
+  
+    const spanElements = document.querySelectorAll('.slogan span');
+    const typingInterval = 100; // Adjust this value for typing speed
+    const pauseInterval = 1000; // Adjust this value for pause between lines
+    
+    let currentSpanIndex = 0;
+    let currentWordIndex = 0;
+    
+    function typeText() {
+      const currentSpan = spanElements[currentSpanIndex];
+      const words = currentSpan.textContent.trim().split(' ');
+      
+      if (currentWordIndex < words.length) {
+        currentSpan.textContent = words.slice(0, currentWordIndex + 1).join(' ');
+        currentWordIndex++;
+        setTimeout(typeText, typingInterval);
+      } else {
+        currentSpanIndex++;
+        currentWordIndex = 0;
+        if (currentSpanIndex < spanElements.length) {
+          setTimeout(typeText, pauseInterval);
+        }
+      }
+    }
+    
+    typeText();
+    
+
+
+
+  </script>
+
+</html>
+
+
+
