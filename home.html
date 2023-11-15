@@ -1125,7 +1125,106 @@ li a{
   text-decoration: none; 
 
 }
-     
+     ham{
+display:none;
+margin-top:30px;
+margin-right:25px;
+}
+.nav-menu{
+
+color:green;
+}
+.overla {
+  height: 100%;
+  width: 0;
+  z-index:3900;
+  position:absolute;
+  top: 0;
+  left: 0;
+
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-size:10px;
+}
+
+.overla-content {
+ 
+ z-index:3900;
+ position:absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.overla a {
+  margin-top:0;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overla a:focus {
+  color: white;
+}
+
+.overla .closebtn {
+  float:right;
+  margin-top: 25px;
+  margin-right: 25px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .overla a {font-size: 20px}
+  .overla .closebtn {
+  font-size: 40px;
+  top: 25px;
+  right: 35px;
+  
+display: block;
+}
+.ham{
+display:block;
+}
+
+}
+nav{
+
+color:green;
+
+}
+
+.badge {
+  margin-bottom:0px;
+  margin-top:80px;
+  padding-left: 0px;
+  padding-top: 10px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+a:hover{
+
+color:white;
+
+
+}
+#lblCartCount {
+    font-size: 22px;
+    background: white;
+    color: black;
+    padding: 0px 0px;
+    vertical-align: top;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-bottom:0;    
+}
     </style>
 
 </head>
@@ -1161,9 +1260,19 @@ li a{
       </nav>
     
     </nav>
+    <span style="font-size:30px;cursor:pointer;float:right;right:10px;" class="ham"  onclick="openNav()">&#9776;</span>
+
   </div>
-  <div class="hamburger-menu">
-    <div class="bar"></div>
+
+
+  <div id="myNav" class="overla">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overla-content">
+    <a href="home.html">Home</a>
+        <a href='services.html'>services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html" >About Us</a>
+        <a href="contact.html" >Contact</a>
   </div>
 
 
