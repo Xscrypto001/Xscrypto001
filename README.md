@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm [peter ikinya ]!
+# 👋 Hi there, I'm peter ikinya !
 
 ![Profile views](https://komarev.com/ghpvc/?username=yourusername&style=flat-square)
 
@@ -18,10 +18,6 @@ I am a passionate **Full Stack Blockchain Developer** with a strong foundation i
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=white)
-
-### Front-end
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
 
 ### Back-end
@@ -45,7 +41,7 @@ I am a passionate **Full Stack Blockchain Developer** with a strong foundation i
 
 ## 📈 GitHub Stats
 
-![My git hub stats](https://github-readme-stats.vercel.app/api?username=xscrypto01&show_icons=true&theme=radical)
+![My git hub stats](https://github-readme-stats.vercel.app/api?username=xscrypto001&show_icons=true&theme=radical)
 
 ## 🤝 Let's Connect
 
