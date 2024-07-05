@@ -23,28 +23,29 @@ I am a passionate **Full Stack Blockchain Developer** with a strong foundation i
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
-### Back-end
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-### Other Tools
+### Back-end
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+
+
+### Front-end
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+
+### DevOps & Others
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![ICP](https://img.shields.io/badge/ICP-000000?style=flat-square&logo=internetcomputer&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-## 💼 Projects
-
-### [Project 1: Decentralized Marketplace](https://github.com/yourusername/project1)
-![Project 1](https://user-images.githubusercontent.com/your-image-link.gif)
-A decentralized marketplace for buying and selling digital goods using Ethereum smart contracts.
-
-### [Project 2: Blockchain Voting System](https://github.com/yourusername/project2)
-![Project 2](https://user-images.githubusercontent.com/your-image-link.gif)
-A secure voting system leveraging blockchain technology to ensure transparency and immutability.
 
 ## 📈 GitHub Stats
 
-![Your Name's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![My git hub stats](https://github-readme-stats.vercel.app/api?username=xscrypto01&show_icons=true&theme=radical)
 
 ## 🤝 Let's Connect
 
