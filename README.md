@@ -39,9 +39,6 @@ I am a passionate **Full Stack Blockchain Developer** with a strong foundation i
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 
-## 📈 GitHub Stats
-
-![My git hub stats](https://github-readme-stats.vercel.app/api?username=xscrypto001&show_icons=true&theme=radical)
 
 ## 🤝 Let's Connect
 
