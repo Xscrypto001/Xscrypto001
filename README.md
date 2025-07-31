@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm peter ikinya !
 
-#Software Architect
+# Software Architect
 
 
 # 🤝 Let's Connect
