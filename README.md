@@ -16,4 +16,3 @@ I also build with python/django
 
 ---
 
-*Building systems that protect while they perform*
