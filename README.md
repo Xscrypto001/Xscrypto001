@@ -8,7 +8,7 @@ I also build with python/django
 
 ### Aggressively Learning and Researching on Zk privacy 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Xscrypto001&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xscrypto001&layout=compact&theme=radical)
 ###  Let's Connect
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ikinya_peter)
